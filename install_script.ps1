@@ -23,9 +23,17 @@ $apps = @(
     @{name = "Microsoft.WindowsTerminal"; source = "msstore" }, 
     @{name = "Microsoft.PowerToys" }, 
     @{name = "Microsoft.VisualStudioCode" }, 
+    @{name = "7zip.7zip" }, 
     @{name = "Mozilla.Firefox"},
     @{name = "Discord.Discord"},
     @{name = "OBSProject.OBSStudio"},
+    @{name = "Foxit.FoxitReader"},
+    @{name = "Notepad++.Notepad++"},
+    @{name = "Samsung.DeX"},
+    @{name = "CodeSector.TeraCopy"},
+    @{name = "Cisco.WebexTeams"},
+    @{name = "Malwarebytes.Malwarebytes"},
+    @{name = "VideoLAN.VLC"},
     @{name = "Valve.Steam"},
 );
 
