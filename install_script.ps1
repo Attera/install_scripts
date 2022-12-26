@@ -26,6 +26,7 @@ $apps = @(
     @{name = "7zip.7zip" }, 
     @{name = "Mozilla.Firefox"},
     @{name = "Discord.Discord"},
+    @{name = "Docker.DockerDesktop"},
     @{name = "OBSProject.OBSStudio"},
     @{name = "Foxit.FoxitReader"},
     @{name = "Notepad++.Notepad++"},
