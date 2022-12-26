@@ -21,6 +21,7 @@ else {
 Write-Output "Installing Apps"
 $apps = @(
     @{name = "Microsoft.WindowsTerminal"; source = "msstore" }, 
+    @{name = "Canonical.Ubuntu.2204"; source = "msstore" },
     @{name = "Microsoft.PowerToys" }, 
     @{name = "Microsoft.VisualStudioCode" }, 
     @{name = "7zip.7zip" }, 
@@ -35,7 +36,10 @@ $apps = @(
     @{name = "Cisco.WebexTeams"},
     @{name = "Malwarebytes.Malwarebytes"},
     @{name = "VideoLAN.VLC"},
+    @{name = "TeamViewer.TeamViewer"},
+    # @{name = "TheDocumentFoundation.LibreOffice"},
     @{name = "Valve.Steam"},
+    @{name = "youtube-dl.youtube-dl"}
 );
 
 Foreach ($app in $apps) {
@@ -52,14 +56,4 @@ Foreach ($app in $apps) {
     else {
         Write-host "Skipping Install of " $app.name
     }
-}
-
-#Remove Apps
-Write-Output "Removing Apps"
-
-$apps = "*3DPrint*", "Microsoft.MixedReality.Portal"
-Foreach ($app in $apps)
-{
-  Write-host "Uninstalling:" $app
-  Get-AppxPackage -allusers $app | Remove-AppxPackage
 }
