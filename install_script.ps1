@@ -21,7 +21,6 @@ else {
 Write-Output "Installing Apps"
 $apps = @(
     @{name = "Microsoft.WindowsTerminal"; source = "msstore" }, 
-    @{name = "Canonical.Ubuntu.2204"; source = "msstore" },
     @{name = "Microsoft.PowerToys" }, 
     @{name = "Microsoft.VisualStudioCode" }, 
     @{name = "7zip.7zip" }, 
@@ -31,14 +30,18 @@ $apps = @(
     @{name = "OBSProject.OBSStudio"},
     @{name = "Foxit.FoxitReader"},
     @{name = "Notepad++.Notepad++"},
-    @{name = "Samsung.DeX"},
     @{name = "CodeSector.TeraCopy"},
     @{name = "Cisco.WebexTeams"},
+    @{name = "Zoom.Zoom"},
     @{name = "Malwarebytes.Malwarebytes"},
     @{name = "VideoLAN.VLC"},
     @{name = "TeamViewer.TeamViewer"},
-    # @{name = "TheDocumentFoundation.LibreOffice"},
+    @{name = "Betterbird.Betterbird"},
     @{name = "Valve.Steam"},
+    @{name = "geeksoftwareGmbH.PDF24Creator"},
+    @{name = "Surfshark.Surfshark"},
+    @{name = "EpicGames.EpicGamesLauncher"},
+    @{name = "Wacom.WacomTabletDriver"},
     @{name = "youtube-dl.youtube-dl"}
 );
 
